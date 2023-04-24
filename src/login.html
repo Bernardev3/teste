@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                font-family: sans-serif;
+            }
+
+            table {
+                background-color: rgb(80, 80, 80);
+                color: whitesmoke;
+                font-size: large;
+                border-radius: 10px;
+                margin: 10px;
+                padding: 20px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            input[type="text"], input[type="password"] {
+                margin-bottom: 2px;
+                margin-left: 15px;
+            }
+        </style>
+        <title>Login</title>
+    </head>
+
+    <body>
+        <form method="post">
+            <table id="login">
+                <thead>
+                    <tr>
+                        <td style="font-weight: bold; font-size: larger;">Login</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nome de usuário: </td>
+                        <td><input type="text" name="username"></td>
+                    </tr>
+                    <tr>
+                        <td>Senha: </td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td><input type="submit" value="Entrar"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </body>
+</html>
